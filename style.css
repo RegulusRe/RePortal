@@ -1,4 +1,12 @@
-/* Базові налаштування */
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
 body {
     background-image: url('media/background.webp');
     background-size: cover;
