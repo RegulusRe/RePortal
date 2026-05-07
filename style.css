@@ -597,6 +597,18 @@ footer {
     .featured-character-info p {
         font-size: 14px;
     }
+    .card, .character-card {
+        width: 100% !important;
+        max-width: 320px !important;
+        box-sizing: border-box;
+        margin: 0 auto;
+    }
+    .games-section, .characters-grid {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
 
 /* Новий текстовий блок на головній сторінці */
