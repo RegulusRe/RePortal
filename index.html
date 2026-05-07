@@ -15,6 +15,9 @@
                 <img src="logo.png" alt="RE Portal Logo" class="site-logo">
             </a>
         </div>
+        <div class="header-title">
+            <h1>Resident Evil Franchise</h1>
+        </div>
         <!-- Кнопка-гамбургер для мобільної версії -->
         <div class="burger-menu" id="burger">
             <span></span>
@@ -33,124 +36,42 @@
     <main>
         <section class="hero">
             <div class="hero-overlay"></div>
-            <h2 class="hero-title">Resident evil Games</h2>
+            <!-- Блок з описом франшизи -->
+            <div class="about-franchise">
+                <h2 class="section-title">Resident Evil History</h2>
+                <p>Resident Evil (also known as Biohazard) is an iconic video game series in the survival horror genre, created by Capcom. The franchise revolutionized the gaming industry when it debuted on PlayStation in 1996, pioneering the survival horror genre and setting new standards for atmospheric storytelling and immersive gameplay. Since then, the series has evolved from fixed-camera perspectives to dynamic first-person experiences, continuously adapting to technological advancements while maintaining its core identity of tension, exploration, and survival against overwhelming odds.</p>
+                <div class="franchise-hidden" id="franchiseHidden">
+                    <p>The narrative universe of Resident Evil is deeply rooted in corporate corruption and biological warfare. At the heart of the story lies the Umbrella Corporation, a fictional pharmaceutical company that secretly conducted experiments with the T-virus, a biological agent capable of reanimating and mutating organic matter. These unethical experiments led to catastrophic viral outbreaks in various locations worldwide, including the iconic Raccoon City. The franchise spans multiple continents, time periods, and character perspectives, creating a rich tapestry of interconnected stories that explore themes of survival, heroism, sacrifice, and humanity's struggle against bioterrorism.</p>
+                    <p>Over three decades, Resident Evil has introduced players to unforgettable protagonists such as Leon S. Kennedy, Jill Valentine, Ada Wong, and Chris Redfield. Each character brings unique skills and perspectives to the ongoing battle against bioweapons and biological threats. From the outbreak in Raccoon City to mysterious villages shrouded in ancient curses, from African deserts to European castles, the series has taken players to diverse and harrowing locations. The franchise has sold over 140 million copies worldwide, spawned multiple film adaptations, novels, comics, and merchandise, cementing its status as one of the most influential horror franchises in entertainment history.</p>
+                </div>
+                <button class="read-more-btn" id="readMoreBtn">Read More</button>
+            </div>
         </section>
 
         <section class="games-section">
-            <a href="games/requiem.html" class="card-link">
-                <div class="card">
-                    <img src="media/games/requiem.webp" alt="Resident Evil Requiem" class="card-img">
+            <div class="latest-game-label">Latest Release</div>
+            <a href="games/requiem.html" class="card-link latest-game-link">
+                <div class="latest-game-card">
+                    <img src="media/Requiem_banner.webp" alt="Resident Evil Requiem" class="card-img">
                     <div class="card-info">
                         <h3>Resident Evil Requiem</h3>
-                        <p>Release date: February 27, 2026</p>
-                    </div>
-                </div>
-            </a>
-            <a href="games/village.html" class="card-link">
-                <div class="card">
-                    <img src="media/games/village.webp" alt="Resident Evil Village" class="card-img">
-                    <div class="card-info">
-                        <h3>Resident Evil Village</h3>
-                        <p>Release date: February 22, 2023</p>
-                    </div>
-                </div>
-            </a>
-            <a href="games/biohazard.html" class="card-link">
-                <div class="card">
-                    <img src="media/games/biohazard.webp" alt="Resident Evil Biohazard" class="card-img">
-                    <div class="card-info">
-                        <h3>Resident Evil Biohazard</h3>
-                        <p>Release date: 24 January 2017</p>
-                    </div>
-                </div>
-            </a>
-            <a href="games/re4.html" class="card-link">
-                <div class="card">
-                    <img src="media/games/re4.webp" alt="Resident Evil 4 Remake" class="card-img">
-                    <div class="card-info">
-                        <h3>Resident Evil 4 Remake</h3>
-                        <p>Release date: March 28, 2023</p>
-                    </div>
-                </div>
-            </a>
-            <a href="games/re3.html" class="card-link">
-                <div class="card">
-                    <img src="media/games/re3.webp" alt="Resident Evil 3 Remake" class="card-img">
-                    <div class="card-info">
-                        <h3>Resident Evil 3 Remake</h3>
-                        <p>Release date: April 3, 2020</p>
-                    </div>
-                </div>
-            </a>
-            <a href="games/re2.html" class="card-link">
-                <div class="card">
-                    <img src="media/games/re2.webp" alt="Resident Evil 2 Remake" class="card-img">
-                    <div class="card-info">
-                        <h3>Resident Evil 2 Remake</h3>
-                        <p>Release date: January 25, 2019</p>
+                        <p>The latest entry in the legendary Resident Evil series released on February 27, 2026. A secret research facility has fallen silent. You are sent to investigate, only to discover a horrifying bio-weapon outbreak that has transformed its inhabitants into deadly creatures. Survive the nightmare, uncover the truth behind the experiment, and escape before it's too late.</p>
                     </div>
                 </div>
             </a>
         </section>
 
         <section class="characters-section">
-            <h2 class="section-title">Main Characters</h2>
-            <div class="characters-grid">
-                <a href="characters/leon.html" class="character-link">
-                    <div class="character-card">
-                        <img src="media/characters/leon.webp" alt="Character 1" class="character-img">
-                        <div class="character-info">
-                            <h3>Leon</h3>
-                            <p></p>
-                        </div>
+            <h2 class="section-title">Featured Character</h2>
+            <a href="characters/leon.html" class="character-link">
+                <div class="featured-character-card">
+                    <img src="media/characters/leon.webp" alt="Leon S. Kennedy" class="featured-character-img">
+                    <div class="featured-character-info">
+                        <h3>Leon S. Kennedy</h3>
+                        <p>A rookie police officer who arrives at Raccoon City on his first day of work, only to find himself thrust into a nightmare of biological horror and survival. Throughout multiple games, Leon has evolved from a young, inexperienced cop into a hardened veteran of countless bioweapon encounters. Known for his determination, combat prowess, and unwavering resolve, Leon has faced countless horrors including the T-virus, Las Plagas parasites, and numerous bioweapon creatures.</p>
                     </div>
-                </a>
-                <a href="characters/grace.html" class="character-link">
-                    <div class="character-card">
-                        <img src="media/characters/grace.avif" alt="Grace Ashcroft" class="character-img">
-                        <div class="character-info">
-                            <h3>Grace Ashcroft</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="characters/jill.html" class="character-link">
-                    <div class="character-card">
-                        <img src="media/characters/jill.jpg" alt="Jill Valentine" class="character-img">
-                        <div class="character-info">
-                            <h3>Jill Valentine</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="characters/ashley.html" class="character-link">
-                    <div class="character-card">
-                        <img src="media/characters/ashley.jpg" alt="Character 4" class="character-img">
-                        <div class="character-info">
-                            <h3>Ashley Graham</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="characters/nemesis.html" class="character-link">
-                    <div class="character-card">
-                        <img src="media/characters/nemesis.png" alt="Nemesis" class="character-img">
-                        <div class="character-info">
-                            <h3>Nemesis</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-                <a href="characters/ada.html" class="character-link">
-                    <div class="character-card">
-                        <img src="media/characters/wong.jpg" alt="Character 6" class="character-img">
-                        <div class="character-info">
-                            <h3>Ada Wong</h3>
-                            <p></p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                </div>
+            </a>
         </section>
     </main>
 

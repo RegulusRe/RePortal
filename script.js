@@ -6,6 +6,23 @@ burger.addEventListener('click', () => {
     navLinks.classList.toggle('show');
 });
 
+// Функція розгортання історії
+const readMoreBtn = document.getElementById('readMoreBtn');
+const franchiseHidden = document.getElementById('franchiseHidden');
+
+if (readMoreBtn && franchiseHidden) {
+    readMoreBtn.addEventListener('click', () => {
+        franchiseHidden.classList.toggle('show');
+        if (franchiseHidden.classList.contains('show')) {
+            readMoreBtn.textContent = 'Read Less';
+            readMoreBtn.classList.add('expanded');
+        } else {
+            readMoreBtn.textContent = 'Read More';
+            readMoreBtn.classList.remove('expanded');
+        }
+    });
+}
+
 // Функція для показу повідомлення
 function showNotification(message, type = 'success') {
     const notification = document.createElement('div');
