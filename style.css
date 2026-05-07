@@ -570,12 +570,11 @@ footer {
         gap: 30px; 
     } 
     .hero-title { 
-        font-size: 28px !important; /* Робимо текст суттєво меншим */
+        font-size: 28px !important; 
         padding: 0 10px;
-        word-wrap: break-word; /* Дозволяємо перенос довгих слів */
+        word-wrap: break-word; 
     }
     
-    /* 2. Робимо блок історії та останнього релізу 100% гумовими */
     .about-franchise, .latest-release, .info-section {
         width: 100% !important;
         max-width: 100% !important;
@@ -586,10 +585,38 @@ footer {
         margin-right: 0 !important;
     }
 
-    /* 3. Якщо в останньому релізі є картинка - не даємо їй вилізти за краї */
     .about-franchise img, .latest-release img, .info-section img {
         max-width: 100% !important;
         height: auto !important;
+    }
+    .hero-title { 
+        display: none !important; 
+    }
+    .main-header {
+        padding: 5px 10px !important;
+    }
+    .games-section { 
+        flex-direction: column; 
+        align-items: center; 
+        padding: 0 10px 40px 10px !important; 
+        margin-top: -60px !important;
+        width: 100%;
+        box-sizing: border-box;
+    } 
+    .about-franchise, .latest-release, .info-section, .featured-character {
+        display: flex !important;
+        flex-direction: column !important; 
+        align-items: center !important;
+        text-align: center !important;
+        width: 100% !important;
+        padding: 15px !important;
+        box-sizing: border-box !important;
+    }
+    .about-franchise img, .latest-release img, .info-section img, .featured-character img {
+        width: 100% !important;
+        max-width: 300px !important; /* Обмежуємо максимальний розмір фото */
+        height: auto !important;
+        margin-bottom: 15px !important;
     }
 }
 
