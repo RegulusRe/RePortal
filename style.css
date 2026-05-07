@@ -569,7 +569,30 @@ footer {
         text-align: center; 
         gap: 30px; 
     } 
+    .hero-title { 
+        font-size: 28px !important; /* Робимо текст суттєво меншим */
+        padding: 0 10px;
+        word-wrap: break-word; /* Дозволяємо перенос довгих слів */
+    }
+    
+    /* 2. Робимо блок історії та останнього релізу 100% гумовими */
+    .about-franchise, .latest-release, .info-section {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-sizing: border-box !important;
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    /* 3. Якщо в останньому релізі є картинка - не даємо їй вилізти за краї */
+    .about-franchise img, .latest-release img, .info-section img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
 }
+
 
 
 /* Новий текстовий блок на головній сторінці */
