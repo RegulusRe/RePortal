@@ -596,6 +596,13 @@ footer {
     }
     .featured-character-info p {
         font-size: 14px;
+    .card, .character-card {
+        max-width: 100%;
+        width: 300px;
+    }
+    
+    .games-section {
+        margin-top: 20px !important;
     }
 }
 
